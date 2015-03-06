@@ -44,11 +44,4 @@ public class Bear
     {
         return "The bear reaches through the bars and eats a volunteer";
     }
-    
-   
-    
-    
-    
-    
-    
 }
