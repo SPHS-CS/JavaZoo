@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.Random;
 import java.util.Scanner;
 /**
- * Write a description of class Zoo here.
+ * Test
  * 
  * @author APCSA2014-15 
  * @version 2015-03-06
