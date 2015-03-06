@@ -51,14 +51,22 @@ public class Zoo
      * This prints an ellipses with 1 second between each period
      * It then moves to the next line.
      */
-    public static void delayDots() throws InterruptedException 
+    public static void delayDots(int dotAmount) throws InterruptedException 
     {
-        TimeUnit.SECONDS.sleep(1);
-        System.out.print(".");
-        TimeUnit.SECONDS.sleep(1);
-        System.out.print(".");
-        TimeUnit.SECONDS.sleep(1);
-        System.out.println(".");
+        for (int i=0; i<dotAmount; i++) {
+            TimeUnit.SECONDS.sleep(1);
+            System.out.print(".");
+        }
+        System.out.println();
+    }
+    
+    /**
+     * This prints an ellipses with 1 second between each period
+     * It then moves to the next line.
+     */
+    public static void delayDots(int dotAmount) throws InterruptedException 
+    {
+        delayDots(3);
     }
 
     /**
