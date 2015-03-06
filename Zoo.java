@@ -64,7 +64,7 @@ public class Zoo
      * This prints an ellipses with 1 second between each period
      * It then moves to the next line.
      */
-    public static void delayDots(int dotAmount) throws InterruptedException 
+    public static void delayDots() throws InterruptedException 
     {
         delayDots(3);
     }
