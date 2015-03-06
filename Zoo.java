@@ -42,7 +42,7 @@ public class Zoo
             text = in.nextLine();
         }
         
-        System.out.println(Math.random() > .8 ? "\nHave a nice day!  Hope you come back!" : "\nAn escaped lion eats you on your way out.  Sorry!");
+        System.out.println(Math.random() < .8 ? "\nHave a nice day!  Hope you come back!" : "\nAn escaped lion eats you on your way out.  Sorry!");
 
     }
 
