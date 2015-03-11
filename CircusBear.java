@@ -7,8 +7,6 @@
  */
 public class CircusBear extends Bear
 {
-    
-
     /**
      * Constructor for objects of class CircusBear
      */
@@ -22,10 +20,5 @@ public class CircusBear extends Bear
     {
          return "Casey puts on his hat and rides his tricycle";
     }
-    
-    
-    
-    
-    
-    
+
 }

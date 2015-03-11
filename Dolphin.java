@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Dolphin
+public class Dolphin extends Animal 
 {
     // instance variables - replace the example below with your own
     private String description;
@@ -37,5 +37,23 @@ public class Dolphin
     public String makeNoise()
     {
         return "EEEEeeeeEEEEeeeeEEEEeeeeEEEEeeeeEEEEeeeeEEEEeeee";
+    }
+    
+    @Override
+    public String move()
+    {
+        return "The Dolphin moves in a swaying motion. He looks happy to see you." ;
+    }
+    
+    @Override
+    public String eat()
+    {
+        return "A worker throws a fish into the aqatic pit and the dolphins speed to eat the residue."; 
+    }
+    
+    @Override
+    public String sleep()
+    {
+        return "The dolphin stares at you with half it's brain working."; 
     }
 }
