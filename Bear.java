@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Bear
+public class Bear extends Animal 
 {
     private String appearance;
     private List<String> toys;
@@ -44,4 +44,17 @@ public class Bear
     {
         return "The bear reaches through the bars and eats a volunteer";
     }
+    
+    @Override
+    public String move()
+    {
+        return "The bear waddles back on forth on both legs in a labrous fashion.";
+    }
+    
+    @Override 
+    public String makeNoise()
+    {
+        return "RAWR!"; 
+    }
+   
 }
