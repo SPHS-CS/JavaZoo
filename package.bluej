@@ -11,159 +11,114 @@ dependency3.type=UsesDependency
 dependency4.from=DolphinTester
 dependency4.to=SeaWorldRescueDolphin
 dependency4.type=UsesDependency
-<<<<<<< HEAD
-dependency5.from=AnimalTester
-dependency5.to=Animal
-dependency5.type=UsesDependency
-dependency6.from=AnimalTester
-dependency6.to=Bear
-dependency6.type=UsesDependency
 objectbench.height=100
-objectbench.width=668
-package.editor.height=399
-package.editor.width=865
-package.editor.x=151
-package.editor.y=157
-package.numDependencies=6
-package.numTargets=13
-=======
-objectbench.height=100
-objectbench.width=668
-<<<<<<< Updated upstream
-package.editor.height=459
-package.editor.width=865
-package.editor.x=190
-package.editor.y=131
+objectbench.width=856
+package.editor.height=558
+package.editor.width=1053
+package.editor.x=182
+package.editor.y=162
 package.numDependencies=4
-package.numTargets=12
-<<<<<<< HEAD
-=======
-package.editor.height=399
-package.editor.width=560
-package.editor.x=671
-package.editor.y=142
-package.numDependencies=4
-package.numTargets=10
->>>>>>> Stashed changes
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+package.numTargets=17
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
-target1.editor.height=700
-target1.editor.width=900
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-target1.editor.x=191
-target1.editor.y=177
+target1.editor.height=938
+target1.editor.width=701
+target1.editor.x=55
+target1.editor.y=23
 target1.height=50
-target1.name=AnimalTester
-=======
->>>>>>> FETCH_HEAD
-target1.editor.x=278
-target1.editor.y=152
-target1.height=50
-target1.name=Shark
->>>>>>> FETCH_HEAD
+target1.name=Swimmable
 target1.naviview.expanded=true
-=======
-target1.editor.x=508
-target1.editor.y=306
-target1.height=50
-target1.name=Duck
->>>>>>> Stashed changes
 target1.showInterface=false
-target1.type=ClassTarget
+target1.type=InterfaceTarget
 target1.typeParameters=
-<<<<<<< HEAD
-target1.width=110
-target1.x=230
-target1.y=190
-=======
-target1.width=80
-<<<<<<< Updated upstream
-target1.x=630
-target1.y=130
->>>>>>> FETCH_HEAD
-target10.editor.height=700
-target10.editor.width=900
-target10.editor.x=56
-target10.editor.y=153
+target1.width=100
+target1.x=610
+target1.y=140
+target10.editor.height=813
+target10.editor.width=790
+target10.editor.x=629
+target10.editor.y=58
 target10.height=50
-target10.name=DolphinTester
-=======
-target1.x=70
-target1.y=10
-target10.editor.height=700
-target10.editor.width=1149
-target10.editor.x=131
-target10.editor.y=168
-target10.height=50
-target10.name=Zoo
->>>>>>> Stashed changes
+target10.name=Shark
 target10.naviview.expanded=true
 target10.showInterface=false
 target10.type=ClassTarget
 target10.typeParameters=
-<<<<<<< Updated upstream
-target10.width=110
-target10.x=80
-<<<<<<< HEAD
-target10.y=290
-=======
-target10.y=340
->>>>>>> FETCH_HEAD
-target11.editor.height=700
-target11.editor.width=1149
-target11.editor.x=131
-target11.editor.y=168
+target10.width=80
+target10.x=920
+target10.y=20
 target11.height=50
-target11.name=Zoo
-target11.naviview.expanded=true
+target11.name=Blobfish
 target11.showInterface=false
 target11.type=ClassTarget
 target11.typeParameters=
 target11.width=80
-<<<<<<< HEAD
-target11.x=320
-target11.y=120
-target12.editor.height=700
-target12.editor.width=900
-target12.editor.x=191
-target12.editor.y=177
+target11.x=820
+target11.y=350
 target12.height=50
-target12.name=Fox
-target12.naviview.expanded=true
+target12.name=AnimalTester
 target12.showInterface=false
 target12.type=ClassTarget
 target12.typeParameters=
-target12.width=80
-target12.x=760
+target12.width=110
+target12.x=490
 target12.y=20
+target13.editor.height=700
+target13.editor.width=900
+target13.editor.x=191
+target13.editor.y=177
 target13.height=50
-target13.name=Flyable
+target13.name=Roamable
+target13.naviview.expanded=true
 target13.showInterface=false
 target13.type=InterfaceTarget
 target13.typeParameters=
-target13.width=80
-target13.x=420
-target13.y=310
-target2.height=50
-target2.name=Swimmable
-=======
-target11.x=70
-target11.y=20
-target12.height=50
-target12.name=Flyable
-target12.showInterface=false
-target12.type=InterfaceTarget
-target12.typeParameters=
-target12.width=80
-target12.x=590
-target12.y=190
+target13.width=90
+target13.x=450
+target13.y=400
+target14.editor.height=700
+target14.editor.width=900
+target14.editor.x=56
+target14.editor.y=153
+target14.height=50
+target14.name=DolphinTester
+target14.naviview.expanded=true
+target14.showInterface=false
+target14.type=ClassTarget
+target14.typeParameters=
+target14.width=110
+target14.x=10
+target14.y=250
+target15.height=50
+target15.name=Fox
+target15.showInterface=false
+target15.type=ClassTarget
+target15.typeParameters=
+target15.width=80
+target15.x=490
+target15.y=120
+target16.editor.height=700
+target16.editor.width=900
+target16.editor.x=191
+target16.editor.y=177
+target16.height=50
+target16.name=Flyable
+target16.naviview.expanded=true
+target16.showInterface=false
+target16.type=InterfaceTarget
+target16.typeParameters=
+target16.width=80
+target16.x=330
+target16.y=200
+target17.height=50
+target17.name=Dragon
+target17.showInterface=false
+target17.type=ClassTarget
+target17.typeParameters=
+target17.width=80
+target17.x=910
+target17.y=200
 target2.editor.height=938
 target2.editor.width=701
 target2.editor.x=55
@@ -171,69 +126,20 @@ target2.editor.y=23
 target2.height=50
 target2.name=Bear
 target2.naviview.expanded=true
->>>>>>> FETCH_HEAD
-target2.showInterface=false
-target2.type=InterfaceTarget
-target2.typeParameters=
-<<<<<<< HEAD
-target2.width=100
-target2.x=170
-target2.y=10
-target3.editor.height=938
-target3.editor.width=701
-target3.editor.x=55
-target3.editor.y=23
-target3.height=50
-target3.name=Bear
-target3.naviview.expanded=true
-target3.showInterface=false
-target3.type=ClassTarget
-target3.typeParameters=
-target3.width=80
-target3.x=450
-target3.y=60
-=======
-target2.width=80
-target2.x=360
-target2.y=110
-target3.height=50
-target3.name=Swimmable
-target3.showInterface=false
-target3.type=InterfaceTarget
-target3.typeParameters=
-target3.width=100
-target3.x=550
-target3.y=20
-<<<<<<< HEAD
-=======
-target10.width=80
-target10.x=320
-target10.y=130
-target2.height=50
-target2.name=AnimalTester
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
-target2.width=110
-target2.x=190
-target2.y=120
-target3.editor.height=938
-target3.editor.width=701
-target3.editor.x=55
-target3.editor.y=23
+target2.width=80
+target2.x=330
+target2.y=30
 target3.height=50
-target3.name=Bear
-target3.naviview.expanded=true
+target3.name=Chicken
 target3.showInterface=false
 target3.type=ClassTarget
 target3.typeParameters=
 target3.width=80
-target3.x=450
-target3.y=60
->>>>>>> Stashed changes
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+target3.x=270
+target3.y=470
 target4.editor.height=700
 target4.editor.width=900
 target4.editor.x=292
@@ -245,29 +151,8 @@ target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
 target4.width=90
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-target4.x=460
-target4.y=150
-target5.editor.height=700
-target5.editor.width=900
-target5.editor.x=191
-target5.editor.y=177
-target5.height=50
-target5.name=Roamable
-target5.naviview.expanded=true
-=======
->>>>>>> FETCH_HEAD
-target4.x=350
-target4.y=230
-target5.height=50
-target5.name=Roamable
-<<<<<<< HEAD
-=======
-target4.x=420
-target4.y=190
+target4.x=230
+target4.y=60
 target5.editor.height=700
 target5.editor.width=900
 target5.editor.x=-69
@@ -275,155 +160,61 @@ target5.editor.y=154
 target5.height=50
 target5.name=CircusBearTester
 target5.naviview.expanded=true
->>>>>>> Stashed changes
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 target5.showInterface=false
-target5.type=InterfaceTarget
+target5.type=ClassTarget
 target5.typeParameters=
-<<<<<<< Updated upstream
-target5.width=90
-<<<<<<< HEAD
-target5.x=650
-target5.y=180
-=======
-target5.x=660
-target5.y=320
->>>>>>> FETCH_HEAD
-target6.editor.height=700
-target6.editor.width=900
-target6.editor.x=-69
-target6.editor.y=154
-target6.height=50
-target6.name=CircusBearTester
-=======
 target5.width=130
-target5.x=410
-target5.y=300
+target5.x=60
+target5.y=410
 target6.editor.height=700
 target6.editor.width=900
 target6.editor.x=100
 target6.editor.y=235
 target6.height=50
 target6.name=Animal
->>>>>>> Stashed changes
 target6.naviview.expanded=true
 target6.showInterface=false
 target6.type=AbstractTarget
 target6.typeParameters=
-<<<<<<< Updated upstream
-target6.width=130
-<<<<<<< HEAD
-target6.x=410
-target6.y=220
-=======
-target6.x=370
-target6.y=360
->>>>>>> FETCH_HEAD
-target7.editor.height=700
-target7.editor.width=900
-target7.editor.x=100
-target7.editor.y=235
-target7.height=50
-target7.name=Animal
-=======
 target6.width=80
-target6.x=330
-target6.y=0
-target7.editor.height=887
-target7.editor.width=709
-target7.editor.x=178
-target7.editor.y=35
+target6.x=460
+target6.y=240
+target7.editor.height=837
+target7.editor.width=900
+target7.editor.x=214
+target7.editor.y=23
 target7.height=50
-target7.name=Dolphin
->>>>>>> Stashed changes
+target7.name=SeaWorldRescueDolphin
 target7.naviview.expanded=true
 target7.showInterface=false
-target7.type=AbstractTarget
+target7.type=ClassTarget
 target7.typeParameters=
-target7.width=80
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-target7.x=330
-target7.y=0
-target8.editor.height=837
-target8.editor.width=900
-target8.editor.x=214
-target8.editor.y=23
-target8.height=50
-target8.name=SeaWorldRescueDolphin
-=======
->>>>>>> FETCH_HEAD
-target7.x=310
-target7.y=20
+target7.width=170
+target7.x=0
+target7.y=160
 target8.editor.height=887
 target8.editor.width=709
 target8.editor.x=178
 target8.editor.y=35
 target8.height=50
 target8.name=Dolphin
-<<<<<<< HEAD
-=======
-target7.x=100
-target7.y=70
-target8.editor.height=837
-target8.editor.width=900
-target8.editor.x=214
-target8.editor.y=23
-target8.height=50
-target8.name=SeaWorldRescueDolphin
->>>>>>> Stashed changes
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 target8.naviview.expanded=true
 target8.showInterface=false
 target8.type=ClassTarget
 target8.typeParameters=
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-target8.width=170
-target8.x=60
-target8.y=180
-target9.editor.height=887
-target9.editor.width=709
-target9.editor.x=178
-target9.editor.y=35
-target9.height=50
-target9.name=Dolphin
-=======
->>>>>>> FETCH_HEAD
 target8.width=80
-target8.x=170
-target8.y=80
-target9.editor.height=837
-=======
-target8.width=170
-target8.x=60
-target8.y=180
+target8.x=180
+target8.y=250
 target9.editor.height=700
->>>>>>> Stashed changes
-target9.editor.width=900
-target9.editor.x=214
-target9.editor.y=23
+target9.editor.width=1149
+target9.editor.x=131
+target9.editor.y=168
 target9.height=50
-target9.name=SeaWorldRescueDolphin
->>>>>>> FETCH_HEAD
+target9.name=Zoo
 target9.naviview.expanded=true
 target9.showInterface=false
 target9.type=ClassTarget
 target9.typeParameters=
-<<<<<<< HEAD
 target9.width=80
-target9.x=90
-target9.y=80
-=======
-target9.width=170
-target9.x=50
-target9.y=200
->>>>>>> FETCH_HEAD
+target9.x=920
+target9.y=480
