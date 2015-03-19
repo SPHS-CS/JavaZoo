@@ -5,18 +5,15 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Shark
+public class Shark extends Animal implements Swimmable
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    
     /**
      * Constructor for objects of class Shark
      */
-    public Shark()
+    public Shark(String name, String description)
     {
-        // initialise instance variables
-        x = 0;
+        super(name, description);
     }
 
     /**
@@ -25,9 +22,39 @@ public class Shark
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
      */
-    public int sampleMethod(int y)
+    @Override
+    public String move()
     {
-        // put your code here
-        return x + y;
+        return "The shark circles in the water.";
+    }
+    
+    @Override
+    public String makeNoise()
+    {
+        return "The shark swishes quietly in the water.";
+    }
+    
+    @Override
+    public String eat()
+    {
+        if (Math.random() < 0.8)
+        {
+            return "The shark jumps out of the water and eats a bird.";
+        }
+        else
+        {
+            return "The shark eats a blobfish.";
+        }
+    }
+
+    @Override
+    public String play()
+    {
+        return "Sharks don't play; they kill.";
+    }
+    
+    public String swim()
+    {
+        return "The shark swims.";
     }
 }
