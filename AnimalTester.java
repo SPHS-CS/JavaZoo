@@ -12,10 +12,10 @@ public class AnimalTester
     {
         List<Animal> animals = new ArrayList<Animal>();
 
+        Animal alice = new Dolphin("A big dolphin", "Alice", true);
+
         Animal bob = new Bear();
 
-        Animal alice = new Dolphin();
-        Animal bob = new Bear();
         animals.add(alice);
 
         animals.add(bob);

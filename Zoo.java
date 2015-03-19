@@ -78,9 +78,17 @@ public class Zoo
     {
         Bear bear1 = new Bear("Care", "There's a weird symbol on his stomach and rainbows shooting from it.  That can't be healthy.", "A fluffy cloud.");
         Bear bear2 = new CircusBear("Fez", "This bear wears a fez and looks somewhat forlorn.", "colorful beach ball");
+        Shark shark1 = new Shark("Jaws", "All you see are rows upon rows of teeth.");
         animals.add(bear1);
         animals.add(bear2);
+        animals.add(shark1);
+        Tiger tiger1 = new Tiger("Bob Smith", "This tiger loves to eat and sleep.", "Teddy Bear");
+        animals.add(tiger1);
         
+        Deer deer1 = new Deer("Lily", "This is a cute cute deer.");
+        Deer deer2 = new Bambi("Bambi", "Hi! This is Bambi!");
+        animals.add(deer1);
+        animals.add(deer2);
     }
 }
 

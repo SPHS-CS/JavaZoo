@@ -13,8 +13,9 @@ public class Dragon extends Animal implements Flyable, Swimmable
     /**
      * Constructor for objects of class Bear
      */
-    public Dragon()
+    public Dragon(String name, String desc)
     {
+       super(desc, name);
         appearance = "This is a ferocious looking dragon, with colorful scales and magnificent wings."
                        +" Its teeth are very sharp and its eyes are mesmerizing.";
         treasures = new ArrayList<String>();
