@@ -36,7 +36,7 @@ public class RedLippedBatfish extends Animal implements Swimmable
     @Override 
     public String play()
     {
-        return "The red-lipped batfish kisses anything it comes upon.";
+        return "The red-lipped batfish kisses a shark. It is eaten.";
     }
 
     @Override 
