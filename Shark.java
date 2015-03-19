@@ -7,16 +7,13 @@
  */
 public class Shark extends Animal implements Swimmable
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    
     /**
      * Constructor for objects of class Shark
      */
-    public Shark()
+    public Shark(String name, String description)
     {
-        // initialise instance variables
-        x = 0;
+        super(name, description);
     }
 
     /**
