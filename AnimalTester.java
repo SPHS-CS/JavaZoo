@@ -11,9 +11,7 @@ public class AnimalTester
     public static void main(String[] args)
     {
         List<Animal> animals = new ArrayList<Animal>();
-        Animal alice = new Dolphin();
         Animal bob = new Bear();
-        animals.add(alice);
         animals.add(bob);
         for(Animal a : animals)
         {
