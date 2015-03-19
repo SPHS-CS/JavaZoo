@@ -21,5 +21,8 @@ comment7.target=java.lang.String\ move()
 comment6.target=java.lang.String\ move()
 comment7.params=
 comment7.target=java.lang.String\ roam()
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 numComments=8

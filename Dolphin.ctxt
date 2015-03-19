@@ -8,11 +8,19 @@ comment2.params=
 comment2.target=java.lang.String\ move()
 comment3.params=
 <<<<<<< HEAD
+<<<<<<< HEAD
 comment3.target=java.lang.String\ play()
 comment4.params=
 comment4.target=java.lang.String\ eat()
 comment5.params=
 comment5.target=java.lang.String\ makeNoise()
+=======
+comment3.target=java.lang.String\ makeNoise()
+comment4.params=
+comment4.target=java.lang.String\ eat()
+comment5.params=
+comment5.target=java.lang.String\ sleep()
+>>>>>>> FETCH_HEAD
 =======
 comment3.target=java.lang.String\ makeNoise()
 comment4.params=

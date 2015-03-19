@@ -11,6 +11,7 @@ dependency3.type=UsesDependency
 dependency4.from=DolphinTester
 dependency4.to=SeaWorldRescueDolphin
 dependency4.type=UsesDependency
+<<<<<<< HEAD
 dependency5.from=AnimalTester
 dependency5.to=Animal
 dependency5.type=UsesDependency
@@ -25,22 +26,45 @@ package.editor.x=151
 package.editor.y=157
 package.numDependencies=6
 package.numTargets=13
+=======
+objectbench.height=100
+objectbench.width=668
+package.editor.height=459
+package.editor.width=865
+package.editor.x=190
+package.editor.y=131
+package.numDependencies=4
+package.numTargets=12
+>>>>>>> FETCH_HEAD
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
+<<<<<<< HEAD
 target1.editor.x=191
 target1.editor.y=177
 target1.height=50
 target1.name=AnimalTester
+=======
+target1.editor.x=278
+target1.editor.y=152
+target1.height=50
+target1.name=Shark
+>>>>>>> FETCH_HEAD
 target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
+<<<<<<< HEAD
 target1.width=110
 target1.x=230
 target1.y=190
+=======
+target1.width=80
+target1.x=630
+target1.y=130
+>>>>>>> FETCH_HEAD
 target10.editor.height=700
 target10.editor.width=900
 target10.editor.x=56
@@ -53,7 +77,11 @@ target10.type=ClassTarget
 target10.typeParameters=
 target10.width=110
 target10.x=80
+<<<<<<< HEAD
 target10.y=290
+=======
+target10.y=340
+>>>>>>> FETCH_HEAD
 target11.editor.height=700
 target11.editor.width=1149
 target11.editor.x=131
@@ -65,6 +93,7 @@ target11.showInterface=false
 target11.type=ClassTarget
 target11.typeParameters=
 target11.width=80
+<<<<<<< HEAD
 target11.x=320
 target11.y=120
 target12.editor.height=700
@@ -90,9 +119,29 @@ target13.x=420
 target13.y=310
 target2.height=50
 target2.name=Swimmable
+=======
+target11.x=70
+target11.y=20
+target12.height=50
+target12.name=Flyable
+target12.showInterface=false
+target12.type=InterfaceTarget
+target12.typeParameters=
+target12.width=80
+target12.x=590
+target12.y=190
+target2.editor.height=938
+target2.editor.width=701
+target2.editor.x=55
+target2.editor.y=23
+target2.height=50
+target2.name=Bear
+target2.naviview.expanded=true
+>>>>>>> FETCH_HEAD
 target2.showInterface=false
 target2.type=InterfaceTarget
 target2.typeParameters=
+<<<<<<< HEAD
 target2.width=100
 target2.x=170
 target2.y=10
@@ -109,6 +158,19 @@ target3.typeParameters=
 target3.width=80
 target3.x=450
 target3.y=60
+=======
+target2.width=80
+target2.x=360
+target2.y=110
+target3.height=50
+target3.name=Swimmable
+target3.showInterface=false
+target3.type=InterfaceTarget
+target3.typeParameters=
+target3.width=100
+target3.x=550
+target3.y=20
+>>>>>>> FETCH_HEAD
 target4.editor.height=700
 target4.editor.width=900
 target4.editor.x=292
@@ -120,6 +182,7 @@ target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
 target4.width=90
+<<<<<<< HEAD
 target4.x=460
 target4.y=150
 target5.editor.height=700
@@ -129,12 +192,23 @@ target5.editor.y=177
 target5.height=50
 target5.name=Roamable
 target5.naviview.expanded=true
+=======
+target4.x=350
+target4.y=230
+target5.height=50
+target5.name=Roamable
+>>>>>>> FETCH_HEAD
 target5.showInterface=false
 target5.type=InterfaceTarget
 target5.typeParameters=
 target5.width=90
+<<<<<<< HEAD
 target5.x=650
 target5.y=180
+=======
+target5.x=660
+target5.y=320
+>>>>>>> FETCH_HEAD
 target6.editor.height=700
 target6.editor.width=900
 target6.editor.x=-69
@@ -146,8 +220,13 @@ target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
 target6.width=130
+<<<<<<< HEAD
 target6.x=410
 target6.y=220
+=======
+target6.x=370
+target6.y=360
+>>>>>>> FETCH_HEAD
 target7.editor.height=700
 target7.editor.width=900
 target7.editor.x=100
@@ -159,6 +238,7 @@ target7.showInterface=false
 target7.type=AbstractTarget
 target7.typeParameters=
 target7.width=80
+<<<<<<< HEAD
 target7.x=330
 target7.y=0
 target8.editor.height=837
@@ -167,10 +247,21 @@ target8.editor.x=214
 target8.editor.y=23
 target8.height=50
 target8.name=SeaWorldRescueDolphin
+=======
+target7.x=310
+target7.y=20
+target8.editor.height=887
+target8.editor.width=709
+target8.editor.x=178
+target8.editor.y=35
+target8.height=50
+target8.name=Dolphin
+>>>>>>> FETCH_HEAD
 target8.naviview.expanded=true
 target8.showInterface=false
 target8.type=ClassTarget
 target8.typeParameters=
+<<<<<<< HEAD
 target8.width=170
 target8.x=60
 target8.y=180
@@ -180,10 +271,27 @@ target9.editor.x=178
 target9.editor.y=35
 target9.height=50
 target9.name=Dolphin
+=======
+target8.width=80
+target8.x=170
+target8.y=80
+target9.editor.height=837
+target9.editor.width=900
+target9.editor.x=214
+target9.editor.y=23
+target9.height=50
+target9.name=SeaWorldRescueDolphin
+>>>>>>> FETCH_HEAD
 target9.naviview.expanded=true
 target9.showInterface=false
 target9.type=ClassTarget
 target9.typeParameters=
+<<<<<<< HEAD
 target9.width=80
 target9.x=90
 target9.y=80
+=======
+target9.width=170
+target9.x=50
+target9.y=200
+>>>>>>> FETCH_HEAD
