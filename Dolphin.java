@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Dolphin extends Animal
+public class Dolphin extends Animal implements Swimmable
 {
     // instance variables - replace the example below with your own
     private String description;
@@ -20,6 +20,14 @@ public class Dolphin extends Animal
         name = "DolphinRashandala";
         hasBeachBall = true;
         description = "This is a pink amazon dolphin.  Much cool.";
+<<<<<<< HEAD
+    }
+    
+    public String swim()
+    {
+        return "The dolphin swims about completely unaware that it is in a zoo.";
+=======
+>>>>>>> FETCH_HEAD
     }
 
     @Override

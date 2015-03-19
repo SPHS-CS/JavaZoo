@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ play()
+comment1.params=
+comment1.target=java.lang.String\ eat()
+comment2.params=
+comment2.target=java.lang.String\ sleep()
+comment3.params=
+comment3.target=java.lang.String\ makeNoise()
+comment4.params=
+comment4.target=java.lang.String\ roam()
+comment5.params=
+comment5.target=java.lang.String\ move()
+numComments=6

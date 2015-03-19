@@ -25,6 +25,11 @@ public class Bear extends Animal implements Roamable
         toys = new ArrayList<String>();
         toys.add("Beach Ball");
     }
+    
+    public String roam()
+    {
+        return "The bear roams about all bear-like.";
+    }
     @Override
     public String makeNoise()
     {
