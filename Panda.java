@@ -28,7 +28,7 @@ public class Panda extends Bear
     @Override
     public String makeNoise()
     {      
-        return "RAAAAAAAAAAWR!\n'I want bamboo, pleas!'";
+        return "RAAAAAAAAAAWR!\n'I want bamboo, please!'";
     }
     
     @Override
