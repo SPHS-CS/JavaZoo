@@ -25,6 +25,7 @@ public class Dragon extends Animal implements Flyable, Swimmable
         treasures.add("Silver banana of the HubbyWubby");
         treasures.add("Cup of swag from the Essence of the World");
         treasures.add("Rug woven from Mr. Shorr's beard");
+        treasures.add("Vial containing a breath from the North Wind itself");
     }
     
     public String roar()
