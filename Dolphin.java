@@ -17,7 +17,7 @@ public class Dolphin extends Animal
      */
     public Dolphin()
     {
-        name = "DolphinRashandala";
+        name = "Dolphin";
         hasBeachBall = true;
         description = "This is a pink amazon dolphin.  Much cool.";
     }

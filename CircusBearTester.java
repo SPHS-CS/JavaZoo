@@ -9,11 +9,20 @@ public class CircusBearTester
 {
     public static void main(String[] args)
     {
-        Bear klaus = new Bear();
-        CircusBear casey = new CircusBear();
-        System.out.println(klaus.roar());
-        System.out.println(casey.roar());
-        System.out.println(klaus.play());
+        Bear klaus = new Bear("Klaus", "He is a bearlike creature", "Ball");
+        CircusBear casey = new CircusBear("Casey", "He is a bear with a hat", "Tricycle");
+       // System.out.println(klaus.getName());
+        //System.out.println(klaus.play());
+        System.out.println(casey.getName());
         System.out.println(casey.play());
+             System.out.println(casey.getName());
+        System.out.println(casey.play());
+             System.out.println(casey.getName());
+        System.out.println(casey.play());
+             System.out.println(casey.getName());
+        System.out.println(casey.play());
+             System.out.println(casey.getName());
+        System.out.println(casey.play());
+        
     }
 }

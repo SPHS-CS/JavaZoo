@@ -6,30 +6,38 @@ import java.util.ArrayList;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Bear extends Animal 
+public class Bear extends Animal
 {
-    private String appearance;
     private List<String> toys;
     /**
      * Constructor for objects of class Bear
      */
-    public Bear()
+    public Bear(String name, String description, String toy)
     {
-        appearance = "This a standard looking bear in all respects. Use your imagination.";
+        super(description, name);
         toys = new ArrayList<String>();
-        toys.add("Plush Fish");
+        toys.add(toy);
     }
 
-    public String roar()
+    public Bear()
+    {
+        super("A general bear.", "General Bear");
+        toys = new ArrayList<String>();
+        toys.add("Beach Ball");
+    }
+    @Override
+    public String makeNoise()
     {
         return "RAAAAAAAAAAWR";
     }
     
+    @Override
     public String sleep()
     {
         return "zzzzzzzzz";
     }
     
+    @Override
     public String play()
     {
         String playing = "";
@@ -40,6 +48,7 @@ public class Bear extends Animal
         return playing;
     }
     
+    @Override
     public String eat()
     {
         return "The bear reaches through the bars and eats a volunteer";
@@ -48,13 +57,8 @@ public class Bear extends Animal
     @Override
     public String move()
     {
-        return "The bear waddles back on forth on both legs in a labrous fashion.";
+        return "The bear backflips and strums his banjo.";
     }
     
-    @Override 
-    public String makeNoise()
-    {
-        return "RAWR!"; 
-    }
-   
+    
 }
