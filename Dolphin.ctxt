@@ -7,25 +7,11 @@ comment1.target=java.lang.String\ swim()
 comment2.params=
 comment2.target=java.lang.String\ move()
 comment3.params=
-<<<<<<< HEAD
-<<<<<<< HEAD
 comment3.target=java.lang.String\ play()
 comment4.params=
-comment4.target=java.lang.String\ eat()
+comment4.target=java.lang.String\ makeNoise()
 comment5.params=
-comment5.target=java.lang.String\ makeNoise()
-=======
-comment3.target=java.lang.String\ makeNoise()
-comment4.params=
-comment4.target=java.lang.String\ eat()
-comment5.params=
-comment5.target=java.lang.String\ sleep()
->>>>>>> FETCH_HEAD
-=======
-comment3.target=java.lang.String\ makeNoise()
-comment4.params=
-comment4.target=java.lang.String\ eat()
-comment5.params=
-comment5.target=java.lang.String\ sleep()
->>>>>>> FETCH_HEAD
-numComments=6
+comment5.target=java.lang.String\ eat()
+comment6.params=
+comment6.target=java.lang.String\ sleep()
+numComments=7

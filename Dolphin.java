@@ -20,14 +20,13 @@ public class Dolphin extends Animal implements Swimmable
         name = "DolphinRashandala";
         hasBeachBall = true;
         description = "This is a pink amazon dolphin.  Much cool.";
-<<<<<<< HEAD
+
     }
     
     public String swim()
     {
         return "The dolphin swims about completely unaware that it is in a zoo.";
-=======
->>>>>>> FETCH_HEAD
+
     }
 
     @Override
