@@ -103,6 +103,11 @@ public class Zoo
         //Dragon dragon2 = new Dragon("Wisdom", "Having lived for centuries, this old, white-bearded dragon speak with more authority than the zoo director himself.");
         //animals.add(dragon1);
         //animals.add(dragon2);
+        Sloth sloth1 = new Sloth("He's definitely not the king of the jungle","Jorge Pip");
+        Sloth sloth2 = new AstroSloth("The best sloth astronaut you've ever seen, because he's the only one"
+                    , "Buzz Slothstrong");
+        animals.add(sloth1);
+        animals.add(sloth2);
     }
 }
 
