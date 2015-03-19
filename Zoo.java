@@ -84,6 +84,10 @@ public class Zoo
         animals.add(bear2);
         animals.add(frog1);
         animals.add(frog2);
+        Shark shark1 = new Shark("Jaws", "All you see are rows upon rows of teeth.");
+        animals.add(bear1);
+        animals.add(bear2);
+        animals.add(shark1);
     }
 }
 
