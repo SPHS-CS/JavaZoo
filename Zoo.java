@@ -77,7 +77,7 @@ public class Zoo
     public static void populateAnimals(List<Animal> animals)
     {
         Bear bear1 = new Bear("Care", "There's a weird symbol on his stomach and rainbows shooting from it.  That can't be healthy.", "A fluffy cloud.");
-        Bear bears2 = new CircusBear("Fez", "This bear wears a fez and looks somewhat forlorn.", "colorful beach ball");
+        Bear bear2 = new CircusBear("Fez", "This bear wears a fez and looks somewhat forlorn.", "colorful beach ball");
         animals.add(bear1);
         animals.add(bear2);
         
