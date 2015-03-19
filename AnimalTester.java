@@ -11,8 +11,8 @@ public class AnimalTester
     public static void main(String[] args)
     {
         List<Animal> animals = new ArrayList<Animal>();
-
         Animal alice = new Dolphin("A big dolphin", "Alice", true);
+
 
         Animal bob = new Bear();
 

@@ -37,20 +37,13 @@ public class Shark extends Animal implements Swimmable
     @Override
     public String eat()
     {
-        if (Math.random() < 0.8)
-        {
-            return "The shark jumps out of the water and eats a bird.";
-        }
-        else
-        {
-            return "The shark eats a blobfish.";
-        }
+        return "The shark jumps out of the water and eats a bird.";
     }
 
     @Override
     public String play()
     {
-        return "Sharks don't play; they kill.";
+        return "Sharks don't play.";
     }
     
     public String swim()

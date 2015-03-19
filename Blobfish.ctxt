@@ -9,6 +9,4 @@ comment3.params=
 comment3.target=java.lang.String\ makeNoise()
 comment4.params=
 comment4.target=java.lang.String\ move()
-comment5.params=
-comment5.target=java.lang.String\ swim()
-numComments=6
+numComments=5
