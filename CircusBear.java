@@ -7,25 +7,24 @@
  */
 public class CircusBear extends Bear
 {
-    
-
-    /**
-     * Constructor for objects of class CircusBear
-     */
-    public CircusBear()
+    public CircusBear (String name, String description, String toy)
     {
-        
+        super(description, name, toy);
     }
+
 
     @Override
     public String play()
     {
-         return "Casey puts on his hat and rides his tricycle";
+        double value = Math.random();
+        if(value>=0.5)
+        {
+            return "Casey puts on his hat and rides his tricycle";}
+        else
+        {
+            return super.play();
+        }
     }
-    
-    
-    
-    
-    
+
     
 }

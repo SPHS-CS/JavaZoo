@@ -12,15 +12,19 @@ public class SeaWorldRescueDolphin extends Dolphin
     /**
      * Constructor for objects of class SeaWorldRescueDolphin
      */
-    public SeaWorldRescueDolphin()
+    public SeaWorldRescueDolphin(String description, String name, boolean hasBall)
     {
-      
+            super(description, name, hasBall);
     }
 
     @Override
     public String play()
     {
-        return "The dolphin does forty backflips, shooting lasers continuously making a spiral of destruction.";
+        if(Math.random() < 0.5)
+            return super.play();
+        else      
+            return "The dolphin does forty backflips, shooting lasers continuously making a spiral of destruction.";
+  
     }
     
 }

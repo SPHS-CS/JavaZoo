@@ -9,15 +9,15 @@ public class DolphinTester
 {
     public static void main(String[] args)
     {
-        Dolphin bobDylan = new Dolphin();
+        /*Dolphin bobDylan = new Dolphin();
         System.out.println(bobDylan.play());
         System.out.println(bobDylan.makeNoise());
-        System.out.println(bobDylan.swim());
+        System.out.println(bobDylan.move());
         
         Dolphin tyroneSWRD = new SeaWorldRescueDolphin();
         System.out.println(tyroneSWRD.play());
         System.out.println(tyroneSWRD.makeNoise());
-        System.out.println(tyroneSWRD.swim());
+        System.out.println(tyroneSWRD.move());*/
     }
 }
 
