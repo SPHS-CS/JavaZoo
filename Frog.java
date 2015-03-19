@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Frog extends Animal
+public class Frog extends Animal implements Swimmable, Roamable
 {
     private List<String> toys;
     
@@ -57,6 +57,16 @@ public class Frog extends Animal
     public String move()
     {
         return getName() + " leaps straight out of its tank and stares into your very being.";
+    }
+    
+    public String swim()
+    {
+        return getName() + " hops in the water and wades around for a minute.";
+    }
+    
+    public String roam()
+    {
+        return getName() + " hops out of his tank and roams around the zoo, as if searching for something.";
     }
 }
 

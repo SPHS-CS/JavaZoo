@@ -74,4 +74,30 @@ public class PrinceFrog extends Frog
             return super.move();
         }
     }
+    
+    @Override
+    public String swim()
+    {
+        if (isPrince)
+        {
+            return getName() + " lies in the water, crying.";
+        }
+        else
+        {
+            return super.swim();
+        }
+    }
+    
+    @Override
+    public String roam()
+    {
+        if (isPrince)
+        {
+            return getName() + " walks around the park hysterically, staring into every person's eyes";
+        }
+        else
+        {
+            return super.roam();
+        }
+    }
 }
