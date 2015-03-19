@@ -88,6 +88,13 @@ public class Zoo
         animals.add(bear1);
         animals.add(bear2);
         animals.add(shark1);
+        Tiger tiger1 = new Tiger("Bob Smith", "This tiger loves to eat and sleep.", "Teddy Bear");
+        animals.add(tiger1);
+        
+        Deer deer1 = new Deer("Lily", "This is a cute cute deer.");
+        Deer deer2 = new Bambi("Bambi", "Hi! This is Bambi!");
+        animals.add(deer1);
+        animals.add(deer2);
     }
 }
 
