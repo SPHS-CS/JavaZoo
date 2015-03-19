@@ -95,6 +95,11 @@ public class Zoo
         Deer deer2 = new Bambi("Bambi", "Hi! This is Bambi!");
         animals.add(deer1);
         animals.add(deer2);
+        
+        Duck duck1 = new Duck("Wow, that duck has 17 inch arms. He is a swole duck.", "Barbara Streisand");
+        Duck ducktator = new Duck("The duck seems to be leading all the other ducks in unison to mine the rocks.....", "Ducktator Kim Duck Un");
+        animals.add(ducktator);
+        animals.add(duck1);
     }
 }
 
