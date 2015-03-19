@@ -13,7 +13,7 @@ public class Zoo
 {
     public static  void main(String[] args) throws InterruptedException 
     {
-        List<Random> animals = new ArrayList<Random>();
+        List<Animal> animals = new ArrayList<Animal>();
 
         System.out.println("Welcome to the Zoo!\n");
         System.out.print("Building the cages");
@@ -74,12 +74,13 @@ public class Zoo
      * Construct your animal and add it to the List
      * @param animals the list containing all the zoo animals
      */
-    public static void populateAnimals(List<Random> animals)
+    public static void populateAnimals(List<Animal> animals)
     {
-        Random r = new Random();
-        Random q = new Random();
-        animals.add(r);
-        animals.add(q);
+        Bear bear1 = new Bear("Care", "There's a weird symbol on his stomach and rainbows shooting from it.  That can't be healthy.", "A fluffy cloud.");
+        Bear bears2 = new CircusBear("Fez", "This bear wears a fez and looks somewhat forlorn.", "colorful beach ball");
+        animals.add(bear1);
+        animals.add(bear2);
+        
     }
 }
 
