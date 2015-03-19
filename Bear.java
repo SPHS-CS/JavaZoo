@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Bear extends Animal
+public class Bear extends Animal implements Roamable
 {
     private List<String> toys;
     /**
@@ -60,5 +60,8 @@ public class Bear extends Animal
         return "The bear backflips and strums his banjo.";
     }
     
-    
+    public String roam()
+    {
+        return "The bear roams in a bearlike manner.";
+    }
 }
