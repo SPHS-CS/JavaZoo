@@ -34,18 +34,17 @@ public class Zoo
             switch(text)
             {
                 case "help" : msg = "So far we can only leave and ask for help.";
-                                break;
+                break;
                 default : msg = "You flail helplessly with indecision.";
             }
             System.out.println("\n" + msg);
             System.out.println("\nYou are standing in a wondrous zoo. What would you like to do?\n");
             text = in.nextLine();
         }
-        
+
         System.out.println(Math.random() < .8 ? "\nHave a nice day!  Hope you come back!" : "\nAn escaped lion eats you on your way out.  Sorry!");
 
     }
-
 
     /**
      * This prints an ellipses with 1 second between each period
@@ -59,7 +58,7 @@ public class Zoo
         }
         System.out.println();
     }
-    
+
     /**
      * This prints an ellipses with 1 second between each period
      * It then moves to the next line.
@@ -88,22 +87,22 @@ public class Zoo
         animals.add(bear1);
         animals.add(bear2);
         animals.add(shark1);
-        Tiger tiger1 = new Tiger("Bob Smith", "This tiger loves to eat and sleep.");
-        animals.add(tiger1);
-        
+        //Tiger tiger1 = new Tiger("Bob Smith", "This tiger loves to eat and sleep.");
+        //animals.add(tiger1);
+
         Deer deer1 = new Deer("Lily", "This is a cute cute deer.");
         Deer deer2 = new Bambi("Bambi", "Hi! This is Bambi!");
         animals.add(deer1);
         animals.add(deer2);
-        
+
         Duck duck1 = new Duck("Wow, that duck has 17 inch arms. He is a swole duck.", "Barbara Streisand");
         Duck ducktator = new Duck("The duck seems to be leading all the other ducks in unison to mine the rocks.....", "Ducktator Kim Duck Un");
         animals.add(ducktator);
         animals.add(duck1);
-        Dragon dragon1 = new Dragon("Swag Master", "Very unpleasant attitude, he refuses to cooperate with any authority.”);
-Dragon dragon2 = new Dragon(“Wisdom”, “Having lived for centuries, this old, white-bearded dragon speak with more authority than the zoo director himself.”);
-animals.add(dragon1);
-animals.add(dragon2);
+        Dragon dragon1 = new Dragon("Swag Master", "Very unpleasant attitude, he refuses to cooperate with any authority.");
+        Dragon dragon2 = new Dragon("Wisdom", "Having lived for centuries, this old, white-bearded dragon speak with more authority than the zoo director himself.");
+        animals.add(dragon1);
+        animals.add(dragon2);
     }
 }
 
