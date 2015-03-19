@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CircusPanda()
+comment0.text=\#\ Constructors
+comment1.params=name
+comment1.target=CircusPanda(java.lang.String)
+comment2.params=description\ name\ toy
+comment2.target=CircusPanda(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ play()
+comment3.text=\#\ Methods
+numComments=4

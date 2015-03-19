@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Panda()
+comment0.text=\#\ Constructors
+comment1.params=name
+comment1.target=Panda(java.lang.String)
+comment2.params=description\ name\ toy
+comment2.target=Panda(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ makeNoise()
+comment3.text=\#\ Methods
+comment4.params=
+comment4.target=java.lang.String\ eat()
+comment5.params=
+comment5.target=java.lang.String\ move()
+numComments=6

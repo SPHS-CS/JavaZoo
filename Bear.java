@@ -26,10 +26,12 @@ public class Bear extends Animal implements Roamable
         toys.add("Beach Ball");
     }
     
+
     public String roam()
     {
         return "The bear roams about all bear-like.";
     }
+
     @Override
     public String makeNoise()
     {
@@ -64,9 +66,10 @@ public class Bear extends Animal implements Roamable
     {
         return "The bear backflips and strums his banjo.";
     }
-    
-    public String roam()
+
+    public List<String> getToys()
     {
-        return "The bear roams in a bearlike manner.";
+        return toys;
+
     }
 }

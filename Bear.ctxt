@@ -13,16 +13,9 @@ comment4.target=java.lang.String\ sleep()
 comment5.params=
 comment5.target=java.lang.String\ play()
 comment6.params=
-<<<<<<< HEAD
 comment6.target=java.lang.String\ eat()
 comment7.params=
 comment7.target=java.lang.String\ move()
-=======
-comment6.target=java.lang.String\ move()
-comment7.params=
-comment7.target=java.lang.String\ roam()
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
-numComments=8
+comment8.params=
+comment8.target=java.util.List\ getToys()
+numComments=9
