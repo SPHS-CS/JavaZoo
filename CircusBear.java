@@ -9,7 +9,7 @@ public class CircusBear extends Bear
 {
     public CircusBear (String name, String description, String toy)
     {
-        super(description, name, toy);
+        super(name, description, toy);
     }
 
 
