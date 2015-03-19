@@ -11,6 +11,10 @@ public class AnimalTester
     public static void main(String[] args)
     {
         List<Animal> animals = new ArrayList<Animal>();
+<<<<<<< Updated upstream
+=======
+        Animal alice = new Dolphin("A big dolphin", "Alice", true);
+>>>>>>> Stashed changes
         Animal bob = new Bear();
         animals.add(bob);
         for(Animal a : animals)
