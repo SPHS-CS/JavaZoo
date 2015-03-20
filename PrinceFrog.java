@@ -21,6 +21,20 @@ public class PrinceFrog extends Frog
         isPrince = false;
     }
     
+    public String curse()
+    {
+        if (isPrince)
+        {
+            setDescription("A typical green frog that appears to be staring straight into your soul.");
+            isPrince = false;
+            return getName() + " vanishes in a puff of smoke and in his place a green frog sits.";
+        }
+        else
+        {
+            return getName() + " hops frantically as if trying to escape some horrible fate.";
+        }
+    }
+    
     @Override
     public String play()
     {
@@ -28,7 +42,7 @@ public class PrinceFrog extends Frog
         {
             setDescription("What once was a green ball is now a 45-year-old man lying sitting on the ground with a modest green speedo.");
             isPrince = true;
-            return getName() + " leaps towards your face and kisses you on the lips.";
+            return getName() + " leaps towards your face and kisses you on the lips. A puff of smoke erupts and now middle aged man is lying on the ground in a green speedo.";
         }
         else
         {

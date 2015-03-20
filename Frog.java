@@ -3,8 +3,8 @@ import java.util.ArrayList;
 /**
  * Write a description of class Frog here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Sheldon Zhu 
+ * @version 2015-03-19
  */
 public class Frog extends Animal implements Swimmable, Roamable
 {
