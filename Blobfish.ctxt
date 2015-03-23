@@ -1,12 +1,21 @@
 #BlueJ class context
-comment0.params=
-comment0.target=java.lang.String\ play()
+comment0.params=desc\ name
+comment0.target=Blobfish(java.lang.String,\ java.lang.String)
 comment1.params=
-comment1.target=java.lang.String\ sleep()
+comment1.target=java.lang.String\ play()
 comment2.params=
-comment2.target=java.lang.String\ eat()
+comment2.target=java.lang.String\ sleep()
 comment3.params=
-comment3.target=java.lang.String\ makeNoise()
+comment3.target=java.lang.String\ eat()
 comment4.params=
+<<<<<<< Updated upstream
 comment4.target=java.lang.String\ move()
 numComments=5
+=======
+comment4.target=java.lang.String\ makeNoise()
+comment5.params=
+comment5.target=java.lang.String\ move()
+comment6.params=
+comment6.target=java.lang.String\ swim()
+numComments=7
+>>>>>>> Stashed changes

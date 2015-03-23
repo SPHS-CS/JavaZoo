@@ -7,7 +7,16 @@
  */
 public class Blobfish extends Animal
 {
+<<<<<<< Updated upstream
   public String play()
+=======
+  public Blobfish(String desc, String name)
+  {
+      super(desc, name);
+  }
+    @Override
+    public String play()
+>>>>>>> Stashed changes
   {
       return "The mighty blobfish takes out it's baton and twirls it . . . it is a distraction and you have died.";
   }

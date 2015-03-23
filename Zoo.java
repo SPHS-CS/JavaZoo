@@ -84,7 +84,11 @@ public class Zoo
         animals.add(frog1);
         animals.add(frog2);
         Shark shark1 = new Shark("Jaws", "All you see are rows upon rows of teeth.");
+        Blobfish blobfish1 = new Blobfish("Blobert", "The blobfish seems innocent, but beware.");
+        FlyingBlobfish blobfish2 = new FlyingBlobfish("Bloberto", "The blobfish seems innocent, but beware.");
         animals.add(bear1);
+        animals.add(blobfish1);
+        animals.add(blobfish2);
         animals.add(bear2);
         animals.add(shark1);
         //Tiger tiger1 = new Tiger("Bob Smith", "This tiger loves to eat and sleep.");

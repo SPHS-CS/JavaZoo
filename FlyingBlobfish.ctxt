@@ -1,16 +1,14 @@
 #BlueJ class context
-comment0.params=
-comment0.target=java.lang.String\ play()
+comment0.params=desc\ name
+comment0.target=FlyingBlobfish(java.lang.String,\ java.lang.String)
 comment1.params=
-comment1.target=java.lang.String\ sleep()
+comment1.target=java.lang.String\ play()
 comment2.params=
 comment2.target=java.lang.String\ eat()
 comment3.params=
-comment3.target=java.lang.String\ makeNoise()
+comment3.target=java.lang.String\ move()
 comment4.params=
-comment4.target=java.lang.String\ move()
+comment4.target=java.lang.String\ swim()
 comment5.params=
-comment5.target=java.lang.String\ swim()
-comment6.params=
-comment6.target=java.lang.String\ fly()
-numComments=7
+comment5.target=java.lang.String\ fly()
+numComments=6
