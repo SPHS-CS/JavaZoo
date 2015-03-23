@@ -13,7 +13,8 @@ public class DireWolf extends Animal implements Roamable
     }
     public String makeNoise()
     {
-        return "It releases a loud menacing howl in the defence of the North.";
+        //find an audio file for this.
+        return "Winter is Coming";
     }
     public String eat()
     {
@@ -26,10 +27,5 @@ public class DireWolf extends Animal implements Roamable
     public String roam()
     {
         return "The direwolf stalks its prey, slowly and calculatingly.";
-    }
-    public String speak()
-    {
-        //find an audio file for this.
-        return "Winter is Coming";
     }
 }
