@@ -42,7 +42,7 @@ public class PrinceFrog extends Frog
         {
             setDescription("What once was a green ball is now a 45-year-old man lying sitting on the ground with a modest green speedo.");
             isPrince = true;
-            return getName() + " leaps towards your face and kisses you on the lips. A puff of smoke erupts and now middle aged man is lying on the ground in a green speedo.";
+            return getName() + " leaps towards your face and kisses you on the lips. \n A puff of smoke erupts and now middle aged man is lying on the ground in a green speedo.";
         }
         else
         {
