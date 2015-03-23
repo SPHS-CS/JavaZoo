@@ -9,4 +9,6 @@ comment3.params=
 comment3.target=java.lang.String\ play()
 comment4.params=
 comment4.target=java.lang.String\ roam()
-numComments=5
+comment5.params=
+comment5.target=java.lang.String\ speak()
+numComments=6

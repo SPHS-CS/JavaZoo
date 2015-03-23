@@ -8,6 +8,7 @@ import java.io.InputStream;
 public class Fox extends Animal implements Roamable
 {
     public String toy; 
+    public String food;
     public Fox(String name, String desc)
     {
         super(desc, name);
@@ -20,7 +21,7 @@ public class Fox extends Animal implements Roamable
         }
         else if(Math.random() < .3)
         {
-            toy = "... h god I hope that's not a body part.";
+            toy = "... oh god I hope that's not a body part.";
         }
         else 
         {
@@ -30,12 +31,24 @@ public class Fox extends Animal implements Roamable
     }
     public String eat()
     {
-        return "The fox finally catches a smal child and drags it back to its den.";
+        if(Math.random() > .3 && Math.random() < .6)
+        {
+            food = " finally catches a small child and drags it back to its den";
+        }
+        else if(Math.random() < .3)
+        {
+            food = " seems to be chewing on some kind of leftovers";
+        }
+        else 
+        {
+          food = " is eating a large juicy looking steak";
+        }
+        return "The fox" + food;
     }
     public String sleep()
     {
         return "The fox never sleeps, it is eternal, it is all knowing..."
-        + "It fell over form exhaustion.";
+        + " It fell over form exhaustion.";
     }
     public String makeNoise()
     {

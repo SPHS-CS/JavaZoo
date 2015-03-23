@@ -27,4 +27,9 @@ public class DireWolf extends Animal implements Roamable
     {
         return "The direwolf stalks its prey, slowly and calculatingly.";
     }
+    public String speak()
+    {
+        //find an audio file for this.
+        return "Winter is Coming";
+    }
 }
