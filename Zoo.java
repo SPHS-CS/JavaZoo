@@ -105,10 +105,10 @@ public class Zoo
         Duck ducktator = new Duck("The duck seems to be leading all the other ducks in unison to mine the rocks.....", "Ducktator Kim Duck Un");
         animals.add(ducktator);
         animals.add(duck1);
-        //Dragon dragon1 = new Dragon("Swag Master", "Very unpleasant attitude, he refuses to cooperate with any authority.");
-        //Dragon dragon2 = new Dragon("Wisdom", "Having lived for centuries, this old, white-bearded dragon speak with more authority than the zoo director himself.");
-        //animals.add(dragon1);
-        //animals.add(dragon2);
+        Dragon dragon1 = new Dragon("Swag Master", "Very unpleasant attitude, he refuses to cooperate with any authority.");
+        Dragon dragon2 = new Dragon("Wisdom", "Having lived for centuries, this old, white-bearded dragon speak with more authority than the zoo director himself.");
+        animals.add(dragon1);
+        animals.add(dragon2);
         Sloth sloth1 = new Sloth("He's definitely not the king of the jungle","Jorge Pip");
         Sloth sloth2 = new AstroSloth("The best sloth astronaut you've ever seen, because he's the only one"
                     , "Buzz Slothstrong");
