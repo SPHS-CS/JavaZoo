@@ -114,6 +114,11 @@ public class Zoo
                     , "Buzz Slothstrong");
         animals.add(sloth1);
         animals.add(sloth2);
+        
+        SCP173 scp173 = new SCP173(" SCP-173 is constructed from concrete and rebar with traces of Krylon brand spray paint." +
+                                    "/n SCP-173 is animate and extremely hostile, though the object cannot move" + 
+                                    "/nwhile within a direct line of sight.", "Euclid"); 
+        animals.add(scp173);                            
     }
 }
 
