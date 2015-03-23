@@ -12,7 +12,7 @@ public class Frog extends Animal implements Swimmable, Roamable
     
     public Frog()
     {
-        super("A typical green frog that appears to be staring straight into your soul.", "Rupert");
+        super("A typical green frog that appears to be staring straight into your soul.", "Tyler");
         toys = new ArrayList<String>();
         toys.add("Barbie Doll");
     }
