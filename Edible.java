@@ -12,6 +12,6 @@ public interface Edible
      * even if you don't type public
      * they are still public
      */
-    
+    // does this method mean that we eat the animal? Because most animals can be eaten if cooked correctly
     void beEaten();
 }
